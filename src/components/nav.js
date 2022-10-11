@@ -88,14 +88,30 @@ const Nav = (props)=>{
                     <div>Stories</div>
                 </div>
             <div className="waffle-click act" id="waffle-click">
-            <div className='crossBorder'>
-                <cross onMouseEnter={waffleClick} id="cross" className="cross">
-                    {/* <h1 className='cross-icon'>×</h1> */}
-                    <i ><img className='cross-icon' width="50px" src="https://icons.veryicon.com/png/o/miscellaneous/linear-icon-27/cross-circle-1.png" alt="" /></i>
-                </cross>
+                <div className='crossBorder'>
+                    <cross onMouseEnter={waffleClick} id="cross" className="cross">
+                        {/* <h1 className='cross-icon'>×</h1> */}
+                        <i ><img className='cross-icon' width="50px" src="https://icons.veryicon.com/png/o/miscellaneous/linear-icon-27/cross-circle-1.png" alt="" /></i>
+                    </cross>
                 </div>
                 <portionLeft className="portionLeft">
-                    <h1>Snapchat</h1>
+                    <div className='left'>
+                        <h1>Snapchat</h1>
+                        <ol>
+                            <li>Snapchat</li>
+                            <li>Lenses</li>
+                            <li>Stories</li>
+                            <li>Maps</li>
+                            <li>Store</li>
+                            <li>Originals</li>
+                            <li>Accounts</li>
+                        </ol>
+                        <h1>Business</h1>
+                        <h1>Pixy</h1>
+                        <h1>Snap AR</h1>
+                        <h1>Spectacles</h1>
+                    </div>
+                    <img src="https://images.ctfassets.net/kp51zybwznx4/4benfiTpduypvxiJALwxfh/f028dc70bfeb6c9d4d5ff13e0367c086/03-OYS_Snapchatcom_Thumb_1920x1371.png?fm=avif&q=70&w=1440" alt="" />
                 </portionLeft>
             </div>
         </NavContainer>
