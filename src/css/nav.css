@@ -201,23 +201,21 @@ div .icon-waffle svg path:hover{
 
 .cross-icon{
     position: absolute;
-    border: rgb(65, 65, 65) solid 1px;
+    /* border: rgb(65, 65, 65) solid 1px; */
     /* padding: 5px 0; */
-    padding-left: 11px;
-    padding-top: -5px;
-    padding-right: 12px;
-    padding-bottom: 5px;
+    /* padding:  10px; */
     /* margin-top: 6px; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     cursor: pointer;
     color: rgb(69, 69, 69);
     left: 3.5%;
+    top: 5%;
     /* margin-left: 55px; */
     background-color: transparent;
 }
 .cross-icon:hover{
     color: #000;
-    border: #000 1px solid;
+    /* border: #000 1px solid; */
 }
 .portionLeft{
     width: 30vh;

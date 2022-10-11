@@ -88,9 +88,12 @@ const Nav = (props)=>{
                     <div>Stories</div>
                 </div>
             <div className="waffle-click act" id="waffle-click">
+            <div className='crossBorder'>
                 <cross onMouseEnter={waffleClick} id="cross" className="cross">
-                    <h1 className='cross-icon'>×</h1>
+                    {/* <h1 className='cross-icon'>×</h1> */}
+                    <i ><img className='cross-icon' width="50px" src="https://icons.veryicon.com/png/o/miscellaneous/linear-icon-27/cross-circle-1.png" alt="" /></i>
                 </cross>
+                </div>
                 <portionLeft className="portionLeft">
                     <h1>Snapchat</h1>
                 </portionLeft>
