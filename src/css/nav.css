@@ -276,3 +276,67 @@ div .icon-waffle svg path:hover{
     margin-left: 10px;
     border-left: black solid 10px;
 }
+
+.none{
+    display: none;
+}
+@media only screen and (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .line-icon{
+        margin-left: -10px;
+        display: block;
+        width: 15px;
+    }
+    .waffle{
+        display: none;
+    }
+    .SnapLogo{
+        margin-left: 30px;
+        align-items: center;
+    }
+    .navContainer .navItems .link{
+        display: none;
+    }
+    .navContainer .navItems .navButtons{
+        display: block;
+        background-color: transparent;
+
+    } 
+    .navContainer .navButtons .DownButton,
+    .navContainer .navButtons .DownButton text,
+    .navContainer .navButtons .DownButton .phoneIcon,
+    .navContainer .navButtons .DownButton .phoneIcon img{
+        /* display: flex; */
+        background-color: transparent;
+    }
+    .navContainer .navButtons .DownButton text{
+        font-size: 12px;
+        margin-left: -10px;
+        font-weight: 200;
+    }
+    .navContainer .navButtons .DownButton .phoneIcon{
+        display: none;
+    }
+    .navContainer .navButtons .LoginButton,
+    .navContainer .navButtons .LoginButton .text,
+    .navContainer .navButtons .LoginButton .lapIcon,
+    .navContainer .navButtons .LoginButton .lapIcon img{
+        background-color: transparent;
+        color: #000;
+    }
+    .navContainer .navButtons .LoginButton .lapIcon img{
+        display: none;
+    }
+    .navContainer .navButtons .LoginButton text{
+        font-size: 12px;
+        font-weight: 200;
+        margin-left: -50px;
+    }
+    .navContainer .navItems{
+        display: flex;
+        margin: 5px;
+
+    }
+}
