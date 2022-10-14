@@ -35,6 +35,7 @@
     }
     .textContainer{
         max-width: 100vw;
+        margin-left: -40px;
         padding: 200px 30px;
         justify-content: center;
         text-align: center;
