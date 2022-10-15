@@ -19,6 +19,7 @@ const Slide5 = (props)=>{
                     <option value="">MX +52</option>
                     <option value="">US +1</option>
                 </select>
+                {/* <hi>hi</hi> */}
                 <input type="tel" id="input"  onFocus={myfunction}  placeholder='Phone Number'></input>
                 <tryNow>
                     <button >Explore Your Map</button>
